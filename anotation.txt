@@ -6,3 +6,9 @@ dotnet run
 
 Ativar certificado
 dotnet dev-certs https --trust
+
+Criar migrations
+dotnet ef migrations add <Nome da migration> -o Data/Migrations
+
+Para criação do banco de dados sqllite / atualizar
+dotnet ef database update
