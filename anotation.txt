@@ -1,0 +1,8 @@
+Cria projeto webapi
+new webapi -n <name>
+
+Executar
+dotnet run
+
+Ativar certificado
+dotnet dev-certs https --trust
